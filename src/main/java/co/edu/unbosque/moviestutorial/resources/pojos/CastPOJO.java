@@ -2,11 +2,10 @@ package co.edu.unbosque.moviestutorial.resources.pojos;
 
 import co.edu.unbosque.moviestutorial.jpa.entities.Actor;
 import co.edu.unbosque.moviestutorial.jpa.entities.Movie;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 
 public class CastPOJO {
 
-    private Integer castPOJO;
+    private Integer castId;
 
     private Integer movieId;
 
@@ -27,19 +26,19 @@ public class CastPOJO {
         this.role = role;
     }
 
-    public CastPOJO(Integer castPOJO, Movie movie, Actor actor, String role) {
-        this.castPOJO = castPOJO;
+    public CastPOJO(Integer castId, Movie movie, Actor actor, String role) {
+        this.castId = castId;
         this.movie = movie;
         this.actor = actor;
         this.role = role;
     }
 
-    public Integer getCastPOJO() {
-        return castPOJO;
+    public Integer getCastId() {
+        return castId;
     }
 
-    public void setCastPOJO(Integer castPOJO) {
-        this.castPOJO = castPOJO;
+    public void setCastId(Integer castId) {
+        this.castId = castId;
     }
 
     public Integer getMovieId() {

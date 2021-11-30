@@ -18,8 +18,6 @@ public class MoviePOJO {
 
     private  String country;
 
-    private List<Cast> casts;
-
     public MoviePOJO() {
     }
 

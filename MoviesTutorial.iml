@@ -59,6 +59,5 @@
     <orderEntry type="library" name="Maven: org.hibernate:hibernate-entitymanager:5.4.30.Final" level="project" />
     <orderEntry type="library" name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.2.Final" level="project" />
     <orderEntry type="library" name="Maven: org.postgresql:postgresql:42.2.10" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.13.0" level="project" />
   </component>
 </module>
